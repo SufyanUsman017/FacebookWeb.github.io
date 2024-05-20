@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: rgba(0, 0, 0, 0.632);
+}
+
+
+.navbar{
+     width: 100%;
+     height: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: rgba(0, 0, 0, 0.782)(4, 0, 30, 0.671);
+     cursor: pointer;
+
+}
+.logo {
+    display: flex;
+    padding: 5px;
+    margin: 10px ;
+    
+
+  }
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.input{
+    width: 200px;
+    padding: 8px 10px;
+    
+    border: 1px solid;
+    outline: none;
+   
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+  }
+.glass{
+    color: black;
+    font-size: 15px;
+    width: 30px;
+    width: 0px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* border-top-right-radius: 20px;
+    border-bottom-right-radius:20px; */
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    
+  
+  
+  }
+.centerbar{
+    display: flex;
+}  
+.nav{
+  font-size: 30px;
+  border-radius: 40px;
+  padding:  15px;
+  margin: 0px 10px;
+  cursor: pointer;
+  color: whitesmoke;
+  
+  
+}
+.nav:hover{
+  background-color: #f8f8f8;
+  
+}
+.icons{
+    display: flex;
+    align-items: center;
+   
+   }
+   .video{ 
+     background-color: #f8f8f8cc;
+     padding:  15px;
+     border-radius: 100px;
+     margin: 0px 10px;
+     cursor: pointer;
+     
+   }
+   .video:hover{
+     background-color: #f8f8f8cc
+   }
+   .user{
+     
+     padding: 15px;
+     color: white;
+     border-radius: 100;
+     margin: 0px 10px;
+     cursor: pointer;
+   }
+   .user img{
+     width: 40px;
+     height: 40px;
+     border-radius: 100%;
+   }
+   .user img:hover{
+     background-color: #f8f8f8cc;
+     cursor: pointer;
+   }
+   /* Navbar End--------------------------------------------------------------------- */
+   /* profile start---------------------------------------------------------------- */
+
+.profile{
+   display: flex; 
+   justify-content: center;
+   top: 5px;
+}
+.profile img{
+    width: 70%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border: 4px solid grey;
+
+}
+
+
+
+
+
+   /* profile End------------------------------------------------------------------------ */
+    /* /* status Start--------------------------------------------------------------------------- */
+.col-3{
+   
+}    
+.status-pic{
+    display: flex;
+    align-items: ;
+    margin-top: -50px;
+    justify-content: flex-start;
+    padding: 0 18em;
+   
+
+}
+.status-pic img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 4px solid rgba(0, 0, 0, 0.485);
+   
+}
+
+    
+.col-3{
+    display: flex;
+    
+    
+}
+
+.profile-name{
+   
+   padding: 0em;
+    
+} 
+.profile-name h1{
+    color: #ffff;
+    font-size: 2em;
+}  
+.profile-name h2{
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: 0.6em 0;
+}
+
+.profile-name ul{
+    display: flex;
+    list-style: none;
+}
+.profile-name ul li img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -8px;
+    cursor: pointer;
+    
+
+}
+ 
+    /* profile name end------------------------------------------------------------------ */
+
